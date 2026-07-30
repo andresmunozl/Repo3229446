@@ -14,7 +14,8 @@ class GeometriaCirculo:
         return 2 * 3.1416 * self.radio
 
 
-radio_usuario = int(input("Ingrese el radio del circulo: "))
-c = GeometriaCirculo(radio_usuario)
+##radio_usuario = int(input("Ingrese el radio del circulo: "))
+##c = GeometriaCirculo(radio_usuario)
+c = GeometriaCirculo(8)
 print(c.area())
 print(c.circunferencia())
