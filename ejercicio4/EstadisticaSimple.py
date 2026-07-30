@@ -1,0 +1,1 @@
+## Clase EstadisticaSimple:  Atributos num1, num2, num3. Método para calcularPromedio(). 

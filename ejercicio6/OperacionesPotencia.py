@@ -1,0 +1,1 @@
+## Clase OperacionesPotencia:  Atributos base y exponente. Métodos para calcularPotencia() y calcularCuadrado(). 

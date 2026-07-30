@@ -1,0 +1,1 @@
+## Clase ConversorTemperatura:  Atributo celsius. Métodos para aFahrenheit() y aKelvin(). 

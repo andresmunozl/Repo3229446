@@ -1,0 +1,1 @@
+## Clase AnalisisNumerico: Atributo numero. Métodos para esPar() (retorna verdadero/falso) y obtenerDoble(). 

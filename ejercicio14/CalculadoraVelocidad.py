@@ -1,0 +1,1 @@
+## Clase CalculadoraVelocidad: Atributos distancia y tiempo. Método para calcularVelocidadMedia().. 
