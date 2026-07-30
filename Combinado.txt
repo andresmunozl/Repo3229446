@@ -16,4 +16,8 @@ construyo una inmensa mansion
 el uso constante de su creacion le trajo fama
 construyo una inmensa mansion
 esta es la linea de andresM
+<<<<<<< HEAD
 >>>>>>> fa1024bfbd1a664e8112f34c4071063951425ad2
+=======
+Maravilla 
+>>>>>>> 1d536505d480c8ccec2a0b00a99b280b1e49c541
