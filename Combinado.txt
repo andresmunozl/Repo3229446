@@ -4,8 +4,25 @@ un terreneitor sesino en adso2
  un jugador conocido como CRISTIANO RONALDO AVEIRO DOS SANTOS   
   demostro al mundo ser el mejor de la historia 
 un programador que, noche tras noche, construyó algo pequeño solo por curiosidad, y sin darse cuenta terminó creando algo que otros empezaron a usar todos los días.
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+Pasaba los días frente a un telar infinito suspendido en el vacío, entrelazando destellos y sombras para construir castillos flotantes, ríos de datos y autómatas que cobraban vida con solo recibir su aliento. Cada nudo que ataba era una orden precisa; si un solo hilo se cruzaba donde no debía, los muros del castillo se desmoronaban en silencio o los puentes se desvanecían antes de que el viajero pudiera cruzarlos.Un día, el telar entero se congeló. Una maldición invisible, un duendecillo de sombra al que los de su oficio llamaban "El Bug", se había ocultado entre los pliegues del tejido. El gran reloj del reino se detuvo y las criaturas mecánicas quedaron atrapadas en un parpadeo eterno.El tejedor no desesperó. Encendió su linterna de la lógica y descendió minuciosamente a través de los millones de nudos, revisando cada cruce de luz y oscuridad. Pasó noches en vela deshaciendo y rehaciendo costuras, rastreando el frío origen del error hasta que, finalmente, encontró el hilo rebelde que causaba el colapso. Con paciencia quirúrgica, cortó el nudo equivocado y restableció el flujo correcto.Al instante, el telar suspiró con un zumbido armonioso, la fortaleza volvió a flotar y el mundo inmaterial recuperó su mágica marcha. El tejedor sonrió, estiró la espalda cansada y, antes de descansar, comenzó a diseñar un nuevo e intrincado tapiz.
+=======
+construyo una inmensa mansion
+>>>>>>> 1c4e9b1cff86dc4df32b48e9d5b6a3c17cba72ef
+esta es la linea de edwin 
+=======
 construyo una inmensa mansion
 el uso constante de su creacion le trajo fama
 construyo una inmensa mansion
 esta es la linea de andresM
+<<<<<<< HEAD
 fin
+=======
+<<<<<<< HEAD
+>>>>>>> fa1024bfbd1a664e8112f34c4071063951425ad2
+=======
+Maravilla 
+>>>>>>> 1d536505d480c8ccec2a0b00a99b280b1e49c541
+>>>>>>> 8eff1c3b5e2e9c3e9acb1d45cf6cc3cb00a07c85
