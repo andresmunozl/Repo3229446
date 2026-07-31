@@ -1,7 +1,15 @@
 ## Clase CalculadoraTriangulo:  Atributos base y altura. Método para calcularArea() ().
-base = float(input("base triangulo: "))
-altura = float(input("altura triangulo: "))
+class CalculadoraTriangulo:
+    def __init__(self, base, altura):
+        self.base = base
+        self.altura = altura
 
-calcularArea = base * altura / 2
+    def calcularArea(self):
+        return self.base * self.altura / 2
 
-print("El area es: ", calcularArea)
+
+base = float(input("Base triangulo: "))
+altura = float(input("Altura triangulo: "))
+
+triangulo = CalculadoraTriangulo(base, altura)
+print("El area es: ", triangulo.calcularArea())
