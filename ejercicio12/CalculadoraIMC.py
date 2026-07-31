@@ -1,0 +1,1 @@
+##  Clase CalculadoraIMC: Atributos peso y altura. Método para obtenerIndice() (). 

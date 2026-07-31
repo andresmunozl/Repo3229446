@@ -1,0 +1,1 @@
+## Clase CalculadoraAreaCuadrado: AAtributo lado. Métodos para calcularArea() () y calcularPerimetro(). 

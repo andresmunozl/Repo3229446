@@ -1,0 +1,1 @@
+##  Clase RepartidorGastos: Atributos totalFactura y numeroPersonas. Método para divisionEquitativa(). 
