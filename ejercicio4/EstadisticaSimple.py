@@ -7,7 +7,7 @@ class EstadisticaSimple:
         self.num3 = num3
 
     def calcularPromedio(self):
-        promedio = (self.num1 + self.num2 + self.num3) 
+        promedio = (self.num1 + self.num2 + self.num3)/3
         return promedio
 
 dato = EstadisticaSimple(10, 20, 30)
