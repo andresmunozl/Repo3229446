@@ -3,7 +3,7 @@ class AhorroPersonal:
     
     def __init__(self, saldoInicial):
         self.saldoInicial = saldoInicial
-        }
+        
 
         
     ## metodo para agregar interes al saldo inicial
@@ -14,3 +14,5 @@ class AhorroPersonal:
     ## metodo para calcular la prevision anual del ahorro personal
     def previsionAnual(self):
         return self.saldoInicial * 12
+
+    print
