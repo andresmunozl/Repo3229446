@@ -1,5 +1,5 @@
 ## Clase ConvertidorMedidas:  Atributo metros. Métodos para aCentimetros() y aKilometros(). 
-class Convertidormedidad:
+class ConvertidorMedidas:
     
     def __init__(self, metros):
         self.metros = metros

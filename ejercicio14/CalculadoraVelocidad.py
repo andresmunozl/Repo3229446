@@ -4,4 +4,4 @@ class CalculadoraVelocidad:
     def calcularVelocidadMedia(distancia, tiempo) :
         return distancia / tiempo
 
-print(CalculadoraVelocidad.calcularVelocidadMedia(100,2))
+print("Velocidad media es:",CalculadoraVelocidad.calcularVelocidadMedia(100,2),"m/s")
