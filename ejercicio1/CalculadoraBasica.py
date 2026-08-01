@@ -1,1 +1,6 @@
-## Clase CalculadoraBasica: Métodos para sumar() y restar() dos números.
+class CalculadoraBasica:
+    def sumar(self, a, b):
+        return a + b
+
+    def restar(self, a, b):
+        return a - b
