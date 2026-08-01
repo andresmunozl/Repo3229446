@@ -4,14 +4,14 @@ class CalculadoraIVA:
         self.precio_producto = precio_producto
         self.iva = iva
         
-    def calcularaIVA(self):
+    def calcularIVA(self):
       iva = (self.precio_producto * self.iva)
       return iva
     def precioTotal(self):
-        return self.precio_producto + self.calcularaIVA()
+        return self.precio_producto + self.calcularIVA()
 
 datos = CalculadoraIVA(12800, 0.19)
-resultado = datos.calcularaIVA()
+resultado = datos.calcularIVA()
 print(f"El IVA es : {resultado}")
 print(f"El precio total es: {datos.precioTotal()}")
 
