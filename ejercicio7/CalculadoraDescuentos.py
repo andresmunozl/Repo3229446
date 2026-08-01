@@ -8,5 +8,5 @@ class CalculadoraDescuentos:
         descuento = precio * porcentaje / 100
         return precio - descuento
 
-print(CalculadoraDescuentos.montoDescuento(100, 20))
-print(CalculadoraDescuentos.precioFinal(100,20))
+print(f"Descuento:",CalculadoraDescuentos.montoDescuento(100, 20))
+print(f"Precio Final:",CalculadoraDescuentos.precioFinal(100,20))
