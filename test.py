@@ -49,7 +49,7 @@ class TestTallerGrupal(unittest.TestCase):
     # --- EJERCICIO 5 ---
     def test_ejercicio5_calculadora_iva(self):
         iva = CalculadoraIVA(100)
-        self.assertEqual(iva.obtenerIVA(), 21)
+        self.assertEqual(iva.calcularIVA(), 21)
         self.assertEqual(iva.precioTotal(), 121)
 
     # --- EJERCICIO 6 ---
