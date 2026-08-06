@@ -5,7 +5,6 @@ estudiante_respuesta = input("es estudiante (si/no): ").strip().lower()
 es_estudiante = estudiante_respuesta == "si"
 
 # imprimir los datos
+
 print(f"nombre:  {nombre}, edad:  {edad}, altura: {altura:.2f}, es estudiante:  {es_estudiante}" )
-
-
 
