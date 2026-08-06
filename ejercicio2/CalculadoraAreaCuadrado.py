@@ -48,3 +48,4 @@ if __name__ == "__main__":
     except (ValueError, TypeError) as error:
         # Capturamos los errores de validación si ingresamos datos inválidos
         print(error)
+        
