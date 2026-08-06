@@ -1,4 +1,6 @@
+# primer trabajo en python Ados
 print('Hola Mundo / Hello World')
+
 
 nombre_completo = "Andres Fernando"
 print(nombre_completo)
