@@ -15,7 +15,7 @@ datos = CalculadoraIVA(12800, 0.19)
 resultado = datos.calculariva()
 =======
 resultado = datos.calcularIVA()
->>>>>>> b5dc6a92f5c07698b3137d89c82bf2ef3dde9a84
+>>>>>>> d2b6644aa3faf81f11a7f8d05a92e69e01dfc3a2
 print(f"El IVA es : {resultado}")
 print(f"El precio total es: {datos.precioTotal()}")
 
