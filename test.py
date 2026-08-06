@@ -6,101 +6,6 @@ import sys
 from io import StringIO
 
 
-<<<<<<< HEAD
-# 2. CLASE DE PRUEBAS
-
-class TestTallerGrupal(unittest.TestCase):
-
-    # --- EJERCICIO 1 ---
-    def test_ejercicio1_calculadora_basica(self):
-        calc = CalculadoraBasica()
-        self.assertEqual(calc.sumar(10, 5), 15)
-        self.assertEqual(calc.restar(10, 5), 5)
-
-    # --- EJERCICIO 2 ---
-    def test_ejercicio2_area_cuadrado(self):
-        cuadrado = CalculadoraAreaCuadrado(4)
-        self.assertEqual(cuadrado.calcularArea(), 16)
-        self.assertEqual(cuadrado.calcularPerimetro(), 16)
-
-    # --- EJERCICIO 3 ---
-    def test_ejercicio3_conversor_temperatura(self):
-        temp = ConversorTemperatura(0)
-        self.assertEqual(temp.aFahrenheit(), 32)
-        self.assertEqual(temp.aKelvin(), 273.15)
-
-    # --- EJERCICIO 4 ---
-    def test_ejercicio4_estadistica_simple(self):
-        est = EstadisticaSimple(10, 20, 30)
-        self.assertEqual(est.calcularPromedio(), 20)
-
-    # --- EJERCICIO 5 ---
-    def test_ejercicio5_calculadora_iva(self):
-        iva = CalculadoraIVA(100)
-        self.assertEqual(iva.calcularIVA(), 21)
-        self.assertEqual(iva.precioTotal(), 121)
-
-    # --- EJERCICIO 6 ---
-    def test_ejercicio6_operaciones_potencia(self):
-        pot = OperacionesPotencia(2, 3)
-        self.assertEqual(pot.calcularPotencia(), 8)
-        self.assertEqual(pot.calcularCuadrado(), 4)
-
-    # --- EJERCICIO 7 ---
-    def test_ejercicio7_calculadora_descuentos(self):
-        desc = CalculadoraDescuentos(100, 20)
-        self.assertEqual(desc.montoDescuento(), 20)
-        self.assertEqual(desc.precioFinal(), 80)
-
-    # --- EJERCICIO 8 ---
-    def test_ejercicio8_geometria_circulo(self):
-        circulo = GeometriaCirculo(3)
-        self.assertAlmostEqual(circulo.area(), 28.274, places=2)
-        self.assertAlmostEqual(circulo.circunferencia(), 18.849, places=2)
-
-    # --- EJERCICIO 9 ---
-    def test_ejercicio9_convertidor_medidas(self):
-        medidas = ConvertidorMedidas(2)
-        self.assertEqual(medidas.aCentimetros(), 200)
-        self.assertEqual(medidas.aKilometros(), 0.002)
-
-    # --- EJERCICIO 10 ---
-    def test_ejercicio10_calculadora_triangulo(self):
-        triangulo = CalcularTriangulo(10, 5)
-        self.assertEqual(triangulo.calcularArea(), 25)
-
-    # --- EJERCICIO 11 ---
-    def test_ejercicio11_ahorro_personal(self):
-        ahorro = AhorroPersonal(1000)
-        ahorro.agregarInteres(10)  # 10% de interés
-        # CORREGIDO: 1000 + 10% = 1100, 1100 * 12 meses = 13200
-        self.assertEqual(ahorro.previsionAnual(), 13200)  # ✅ AHORA SÍ
-
-    # --- EJERCICIO 12 ---
-    def test_ejercicio12_calculadora_imc(self):
-        imc = CalculadoraIMC(70, 1.75)
-        self.assertAlmostEqual(imc.obtenerIndice(), 22.86, places=2)
-
-    # --- EJERCICIO 13 ---
-    def test_ejercicio13_repartidor_gastos(self):
-        gastos = RepartidorGastos(100, 4)
-        self.assertEqual(gastos.divisionEquitativa(), 25)
-
-    # --- EJERCICIO 14 ---
-    def test_ejercicio14_calculadora_velocidad(self):
-        vel = CalculadoraVelocidad(100, 2)
-        self.assertEqual(vel.calcularVelocidadMedia(), 50)
-
-    # --- EJERCICIO 15 ---
-    def test_ejercicio15_analisis_numerico(self):
-        numero = AnalisisNumerico(4)
-        self.assertTrue(numero.esPar())
-        self.assertEqual(numero.obtenerDoble(), 8)
-        
-        numero_impar = AnalisisNumerico(7)
-        self.assertFalse(numero_impar.esPar())
-        self.assertEqual(numero_impar.obtenerDoble(), 14)
-=======
 def importar_clase(ruta_modulo, nombre_clase):
     """Importa la clase sin mostrar los prints de los ejercicios."""
     stdout_original = sys.stdout
@@ -260,7 +165,6 @@ def main():
                 print("Opción no válida. Intenta de nuevo.")
 
         input("\nPresiona ENTER para continuar...")
->>>>>>> 2a21a3166ffa5c4a35005b95980d30b0e3ec35c4
 
 
 if __name__ == '__main__':
