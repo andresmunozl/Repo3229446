@@ -11,7 +11,8 @@ class CalculadoraIVA:
         return self.precio_producto + self.calcularIVA()
 
 datos = CalculadoraIVA(12800, 0.19)
-resultado = datos.calcularIVA()
+
+
 print(f"El IVA es : {resultado}")
 print(f"El precio total es: {datos.precioTotal()}")
 

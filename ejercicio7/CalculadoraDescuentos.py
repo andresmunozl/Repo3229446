@@ -8,5 +8,13 @@ class CalculadoraDescuentos:
         descuento = precio * porcentaje / 100
         return precio - descuento
 
-print(f"Descuento:",CalculadoraDescuentos.montoDescuento(100, 20))
-print(f"Precio Final:",CalculadoraDescuentos.precioFinal(100,20))
+
+    def precioFinal(self):
+        descuento = self.montoDescuento()
+        return self.precio - descuento
+
+dato = CalculadoraDescuentos(100, 20)
+
+print(f"Descuento:", dato.montoDescuento())
+print(f"Precio Final:", dato.precioFinal())
+
