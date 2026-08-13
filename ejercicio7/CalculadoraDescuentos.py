@@ -1,12 +1,13 @@
 ## Clase CalculadoraDescuentos:  Atributos precio y porcentaje. Método para montoDescuento() y precioFinal(). 
 class CalculadoraDescuentos:
 
-    def __init__(self, precio, porcentaje):
-        self.precio = precio
-        self.porcentaje = porcentaje
+    def montoDescuento(precio, porcentaje):
+        return precio * porcentaje /100
 
-    def montoDescuento(self):
-        return self.precio * self.porcentaje / 100
+    def precioFinal(precio, porcentaje):
+        descuento = precio * porcentaje / 100
+        return precio - descuento
+
 
     def precioFinal(self):
         descuento = self.montoDescuento()
