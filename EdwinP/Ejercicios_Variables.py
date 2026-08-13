@@ -4,7 +4,7 @@ edad = int(input("Edad: "))
 altura = float(input("Altura en metros (ej: 1.70): "))
 es_estudiante = input("¿Es estudiante? (Si/No): ")
 
-#paso 2 convertir datos
+# paso 2 convertir datos
 es_estudiante = es_estudiante == "Si"
 
 # paso 3 Imprima todos los datos en pantalla 
