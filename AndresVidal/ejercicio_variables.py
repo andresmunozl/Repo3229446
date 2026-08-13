@@ -7,4 +7,6 @@ es_estudiante = estudiante_respuesta == "si"
 # imprimir los datos pedidos al usuario
 
 print(f"nombre:  {nombre}, edad:  {edad}, altura: {altura:.2f}, es estudiante:  {es_estudiante}" )
+ads
+
 
