@@ -15,7 +15,10 @@ altura = float(altura)
 print(f"Nombre: {nombre}")
 print(f"Edad: {edad} años")
 print(f"Altura: {altura} metros")
-print("El usuario es estudiante.") if estudiante == 'sí' else print("El usuario no es estudiante.")
+if estudiante == 'sí':
+    print("El usuario es estudiante.")
+else:
+    print("El usuario no es estudiante.")
 
 # 4. la altura debe mostrarse con dos decimales
 
