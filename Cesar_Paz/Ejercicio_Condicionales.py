@@ -6,7 +6,7 @@ if tecnologia_nave == "avanzada":
     print("Tecnología suficiente. Es posible iniciar comunicación.")
 
 # CONDICIONAL COMPUESTA
-nivel_amenaza = int(input("Ingrese el nivel de amenaza del extraterrestre (1 al 3): "))
+nivel_amenaza = int(input("Ingrese el nivel de amenaza del extraterrestre 1/3 : "))
 if nivel_amenaza >= 3:
     print(" Alto. No se permite el ingreso a la nave.")
 else:
