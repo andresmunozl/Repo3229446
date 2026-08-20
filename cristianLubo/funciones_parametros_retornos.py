@@ -9,4 +9,4 @@ def convertir_farenheit_a_celsius(nombre, grados_f: int = 10000):
 # grados = 100
 grados = int(input('Ingrese los graods en farenheit'))
 print(convertir_farenheit_a_celsius(grados_f=10, nombre='Bartolo'))
-print(convertir_farenheit_a_celsius('Camilo es gay'))
+print(convertir_farenheit_a_celsius('Camilo'))
