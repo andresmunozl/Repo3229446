@@ -18,3 +18,4 @@ class AnalisisNumerico:
 a = AnalisisNumerico(8)
 print(a.esPar())
 print(a.obtenerDoble())
+
