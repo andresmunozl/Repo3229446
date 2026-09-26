@@ -1,0 +1,10 @@
+nombre = (input('Ingrese su nombre : '))
+edad = int(input('Ingresa tu edad :'))
+altura_en_metros = float(input('Ingresa tu altura(metros) : '))
+es_estudiante = (input('es un estudiante (si / no) : '))
+
+print(' Datos Ingresados')
+print(f"Su Nombre Es : {nombre}")
+print(f"Su Edad Es : {edad}")
+print(f"Su Altura Es : {altura_en_metros}")
+print(f"Usted Es Un Estudiante : {es_estudiante}")

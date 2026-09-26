@@ -1,0 +1,23 @@
+pollo1 = {
+    'peso': 250,
+    'raza': 'covv500',
+    'nombre': 'Roster',
+    'lote': 15,
+    'es_macho': True,
+    'colores': ['azul', 'rojo']
+    
+}
+pollo2 = {
+    'peso': 250,
+    'raza': 'covv500',
+    'nombre': 'Rosaura',
+    'lote': 15,
+    'es_macho': False
+}
+
+print(type(pollo1))
+print(pollo1.keys())
+
+print(pollo1)
+pollo1['nombre_padre'] = 'Arnulfo'
+print(pollo1)
